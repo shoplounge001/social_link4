@@ -8,7 +8,7 @@ body{
     background: #231E39;
     color: #B3B8CD;
     border-radius: 5px;
-    width: 720px;
+    width: device-width;
     text-align: center;
     box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
 }
