@@ -1,0 +1,163 @@
+body{
+    font-family: 'Ubuntu Mono', sans-serif;
+    background: linear-gradient(20deg, #FF2844, #6741FF);
+}
+
+.container{
+    margin: 200px auto;
+    background: #231E39;
+    color: #B3B8CD;
+    border-radius: 5px;
+    width: 720px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+}
+
+.container .cover-photo{
+    background: url(./img/wallpaper001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container .cover-photo img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 100px 0 0 -350px;
+    border: 1px solid #1F1A32;
+    padding: 7px;
+    background: #292343;
+}
+
+.container .cover-photo .cover{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 210px 0 0 -250px;
+    border: 7px solid #28223F;
+    background: chartreuse;
+    z-index: 1000;
+    display: inline-flex;
+    position: absolute;
+}
+
+
+.container .profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 50px;
+}
+
+.container .about{
+    margin-top: 35px;
+    line-height: 21px;
+}
+
+.container .contact{
+    margin-left: 10px 0 40px 0;
+}
+
+.container .social{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.container .social a{
+    background: #fff;
+    color: #25283A;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0px 5px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgba(28 115 214 / 20%);
+}
+
+.container .social .tripadvisor:hover{
+    color: #000;
+    background: chartreuse;
+    
+}
+
+.container .social .instagram:hover{
+    color: #fff;
+    background: linear-gradient(to top right , #FEDA77 ,#F58529 ,#DD217B ,#8134AF ,#515BD4);
+}
+
+.container .social .google:hover{
+    color: #fff;
+    background: #36AE7C;
+}
+
+.container .social .facebook:hover{
+    color: #fff;
+    background: #4D96FF;
+}
+
+.container .contact a{
+    text-decoration: none;
+    background: #03BFBC;
+    display: inline-block;
+    border: 1px solid #DD217B;
+    padding: 10px 25px;
+    color: #000000;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(28 115 214 / 20%);
+    transition: 0.3s;
+}
+.container .contact a.msg-btn{
+    color: #fff;
+    background: #DD217B;
+}
+
+.container .contact a.msg-btn:hover{
+    background: #1843A3;
+    border: 1px solid #1843A3;
+}
+
+.container .contact a.follow-btn{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #1843A3;
+}
+
+.container .contact a.follow-btn:hover{
+    background: #1843A3;
+    border: 1px solid #1843A3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
