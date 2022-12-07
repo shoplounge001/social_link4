@@ -55,7 +55,7 @@ body{
 }
 
 .container .about{
-    margin-top: 35px;
+    margin: 35px;
     line-height: 21px;
 }
 
@@ -180,6 +180,9 @@ body{
     border-radius: 5px 5px 0 0;
     display: flex;
     justify-content: center;
+    }
+    .container .about{
+    margin: 25px;
     }
     
     
