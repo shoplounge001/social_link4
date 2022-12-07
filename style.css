@@ -5,7 +5,7 @@ body{
 
 .container{
     margin: 100px auto;
-    background: #231E39;
+    background: #1B2430;
     color: #B3B8CD;
     border-radius: 10px;
     width: 600px;
@@ -30,9 +30,8 @@ body{
     width: 130px;
     border-radius: 50%;
     margin: 100px 0 0 -350px;
-    border: 1px solid #1F1A32;
-    padding: 7px;
-    background: #292343;
+    border: 6px solid #1B2430;
+    background: #1B2430;
 }
 
 .container .cover-photo .cover{
@@ -40,8 +39,8 @@ body{
     width: 15px;
     border-radius: 50%;
     margin: 210px 0 0 -250px;
-    border: 7px solid #28223F;
-    background: chartreuse;
+    border: 6px solid #1B2430;
+    background: #38E54D;
     z-index: 1000;
     display: inline-flex;
     position: absolute;
@@ -85,8 +84,8 @@ body{
 }
 
 .container .social .tripadvisor:hover{
-    color: #000;
-    background: chartreuse;
+    color: #fff;
+    background: #03C4A1;
     
 }
 
@@ -154,17 +153,16 @@ body{
         justify-content: center;
         align-items: center;
         margin: 180px;
-        border: 1px solid #1F1A32;
-        padding: 7px;
-        background: #292343;
+        border: 6px solid #1B2430;
+        background: #1B2430;
     }
     .container .cover-photo .cover{
-        height: 15px;
-        width: 15px;
+        height: 16px;
+        width: 16px;
         border-radius: 50%;
-        margin: 285px 0 0 110px;
-        border: 7px solid #28223F;
-        background: chartreuse;
+        margin: 280px 0 0 110px;
+        border: 6px solid #1B2430;
+        background: #38E54D;
         z-index: 1000;
         display: inline-flex;
         position: absolute;
