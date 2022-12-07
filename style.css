@@ -57,6 +57,7 @@ body{
 .container .about{
     margin: 35px;
     line-height: 21px;
+    text-align: justify;
 }
 
 .container .contact{
