@@ -183,6 +183,9 @@ body{
     .container .about{
         margin: 25px;
     }
+    .container .contact a{
+    margin: 10px;
+}
     
     
 }
