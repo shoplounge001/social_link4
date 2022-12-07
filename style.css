@@ -161,7 +161,7 @@ body{
         height: 15px;
         width: 15px;
         border-radius: 50%;
-        margin: 260px 0 0 -110px;
+        margin: 260px 0 0 110px;
         border: 7px solid #28223F;
         background: chartreuse;
         z-index: 1000;
